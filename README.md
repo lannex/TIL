@@ -1,7 +1,7 @@
 # TIL
 Today I Learned
 
-![macbook](https://media.giphy.com/media/d3MLdIYIHup9Q2xG/giphy.gif)
+![macbook](https://media.giphy.com/media/ihcJ8evKgsJtC/giphy.gif)
 
 Hi, I'm a frontend developer in Korea.
 It's a kind of diary for studying development & programming.
