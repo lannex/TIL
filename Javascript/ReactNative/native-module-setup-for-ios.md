@@ -13,6 +13,7 @@ javascript만으로 처리하기 힘든 상황이 제법있다.
 
 ```objective-c
 // CounterApp-Bridging-Header.h
+
 #import "React/RCTBridgeModule.h"
 ```
 
@@ -41,7 +42,9 @@ swift와 마찬가지로 새로운 **Objective-C File**을 만듬
 
 ```objective-c
 // YourProject.m
+
 #import "React/RCTBridgeModule.h"
+
 @interface RCT_EXTERN_MODULE(YourProject, NSObject)
 RCT_EXTERN_METHOD(count)
 @end
@@ -51,7 +54,9 @@ RCT_EXTERN_METHOD(count)
 
 ```objective-c
 // YourProject.m
+
 #import "React/RCTBridgeModule.h"
+
 @interface RCT_EXTERN_REMAP_MODULE(RNYourProject, YourProject, NSObject)
 RCT_EXTERN_METHOD(count)
 @end
@@ -62,5 +67,6 @@ react에서 처리
 ```js
 // App.js
 import { NativeModules } from 'react-native'
+
 console.log(NativeModules.YourProject.count())
 ```
