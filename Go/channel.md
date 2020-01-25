@@ -53,11 +53,11 @@ func receiving(<-channel1 chan string) {
 ```go
 func main() {
     // 최대 2개의 값을 버퍼
-	channel := make(chan int, 2)
-	channel <- 1
-	channel <- 2
-	fmt.Println(<-channel)
-	fmt.Println(<-channel)
+    channel := make(chan int, 2)
+    channel <- 1
+    channel <- 2
+    fmt.Println(<-channel)
+    fmt.Println(<-channel)
 }
 ```
 
