@@ -8,15 +8,15 @@ node에서는 sequelize라는 강력한 ORM이 존재하고 Go에서는 GORM이 
 
 ORM이 그렇듯이 약간의 sql지식만이 필요하다. 
 
-'''go
+```go
 // gorm 설치
 go get -u github.com/jinzhu/gorm
 
 // db 설치 - GORM에서 지원하는 것이면 어떤것이든 상관없음
-'''
+```
 
 ## Usage
-'''go
+```go
 
 package main
 
@@ -55,7 +55,7 @@ func main() {
   // Delete - delete product
   db.Delete(&product)
 }
-'''
+```
 
 사실상 CRUD 모두다임
 
