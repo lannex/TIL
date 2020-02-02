@@ -1,18 +1,18 @@
 # GORM
-ORM을 사용하는 것에 대해 여러 의견이 존재한다. 
-ORM만쓰다가 DB를 전혀 모르는 개발자가되느냐 마느냐하는 아직도 다툼이 있는 상황. 
+ORM을 사용하는 것에 대해 여러 의견이 존재한다.
+ORM만쓰다가 DB를 전혀 모르는 개발자가되느냐 마느냐하는 아직도 다툼이 있는 상황.
 그럼에도 불구하고 ORM은 그 편의성으로 널리 쓰인다.
 
 ## Setting
-node에서는 sequelize라는 강력한 ORM이 존재하고 Go에서는 GORM이 존재한다. 
+node에서는 sequelize라는 강력한 ORM이 존재하고 Go에서는 GORM이 존재한다.
 
-ORM이 그렇듯이 약간의 sql지식만이 필요하다. 
+ORM이 그렇듯이 약간의 sql지식만이 필요하다.
 
-```go
-// gorm 설치
+```bash
+#  gorm 설치
 go get -u github.com/jinzhu/gorm
 
-// db 설치 - GORM에서 지원하는 것이면 어떤것이든 상관없음
+# db 설치 - GORM에서 지원하는 것이면 어떤것이든 상관없음
 ```
 
 ## Usage
