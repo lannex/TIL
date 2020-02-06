@@ -17,6 +17,7 @@ $ docker images
 $ docker create [image]
 
 # 이미지 빌드
+# $ docker build -t image-name .
 $ docker build --tag [image-tag] --file [path]
 
 # 이미지 삭제
@@ -38,6 +39,7 @@ $ docker ps
 $ docker ps -a
 
 # 새 컨테이너 시작
+# $ docker run --name abc-container -p 8080:8080 -d abc-image
 $ docker run [options] [image:version]
 # [options]
 # -d: detach 백그라운드에서 시작
