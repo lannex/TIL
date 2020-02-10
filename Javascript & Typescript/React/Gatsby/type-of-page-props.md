@@ -1,7 +1,7 @@
 # Type of Page Props
 Typescript기반으로 Gatsby를 만들때 페이지의 props types를 모를 경우 types helper.
 
-외부 type 선언 컴포넌트를 만듬.
+외부 type 선언 컴포넌트를 만듦.
 
 ```js
 // ./src/types/gatsby.d.ts
