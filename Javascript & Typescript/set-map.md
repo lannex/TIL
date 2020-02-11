@@ -25,7 +25,7 @@ set.entries();
 ## Map()
 - key-value pair 컬렉션
 - key와 value을 연결한다는 점에서 객체와 비슷
-- string, symbol(ES6), object, function >> number 는 사용할 수 없음에 주의!
+- key는 함수, 객체 등을 포함한 모든 값이 가능
 
 ```js
 const map = new Map();
