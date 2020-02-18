@@ -1,4 +1,5 @@
 # Declare svg, png
+`src > types > custom.d.ts`
 
 ## svg
 ```ts
