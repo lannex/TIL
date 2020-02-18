@@ -41,8 +41,9 @@ console.log(fooInstance.test);  // 99
 ```
 
 ## Prototype Object
-- 함수 객체는 일반 객체와는 달리 prototype 속성도 소유
-- 프로토타입 객체도 객체이므로 일반 객체와 같이 프로퍼티를 추가/삭제할 수 있고 이렇게 추가/삭제된 프로퍼티는 즉시 프로토타입 체인에 반영됨
+- 함수 객체만 가짐
+- 함수 객체가 생성자로 사용될 때 이 함수를 통해 생성될 객체의 부모 역할을 하는 객체(프로토타입 객체)를 가리킴
+- 프로토타입 객체도 객체이므로 일반 객체와 같이 속성을 추가/삭제할 수 있고 이렇게 추가/삭제된 속성은 즉시 프로토타입 체인에 반영됨
 - 객체는 언제나 함수로 생성됨
 ```js
 function Person() {}
@@ -58,10 +59,14 @@ const array = new Array();
 
 - 함수가 정의될때 Constructor 자격 부여, Prototype Object도 같이 생성
 - Prototype Object는 `constructor`와 `__proto__`(Prototype Link)를 가지고 있음
+- `constructor`는 객체의 입장에서 자신을 생성한 객체를 가리킴
 
 
 ## Prototype Link
-- `__proto__`속성은 모든 객체가 빠짐없이 가지고 있음
+- `__proto__`속성은 모든 객체가 빠짐없이 가지고 있음 (이 또한 프로토타입 객체)
+- `__proto__`속성에 접근하면 내부적으로 `Object.getPrototypeOf`가 호출되어 프로토타입 객체를 리턴
+- `__proto__`는 자신의 부모객체(프로토타입 객체) `.prototype`을 가리킴
+- 단, 함수 객체의 경우는 `Function.prototype`를 가리킴
 ```js
 const student = {
   name: 'Kim',
@@ -89,3 +94,5 @@ const fooInstance2 = new Foo();  // 바꾼 뒤에 Foo로 부터 생성된 객체
 console.log(fooInstance2.test);  // 50
 console.log(fooInstance.test); // 99
 ```
+
+- **프로토타입 체인**이란 특정 객체의 속성이나 메서드에 접근하려고 할 때 해당 객체에 접근하려는 속성 또는 메서드가 없다면 Prototype Link가 가리키는 링크를 따라 자신의 부모 역할을 하는 프로토타입 객체의 속성이나 메서드를 차례대로 검색하는 것
