@@ -1,5 +1,5 @@
 # 10 Ways to Hide Elements in CSS
-![https://www.sitepoint.com/hide-elements-in-css/](https://www.sitepoint.com/hide-elements-in-css/)
+[https://www.sitepoint.com/hide-elements-in-css/](https://www.sitepoint.com/hide-elements-in-css/)
 
 1. `opacity`나 `filter: opacity()`
    - IE는 `opacity` 0 에서 1만 지원
