@@ -5,6 +5,7 @@
 - Object-Oriented Programming(OOP): 객체 지향 프로그래밍
 
 ## Front-end
+- SPA: Single Page Application
 
 ## Back-end
 - Language
