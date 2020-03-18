@@ -9,7 +9,7 @@
 - 토큰에 담을 정보가 들어있음
 
 ## Signature
-- JSOE Header랑 JWT Claim Set만으로 encode를 한다면 누구나 위변조를 방지하기 위해 사용
+- JSOE Header랑 JWT Claim Set만으로 encode를 한다면 누구나 쉽게 위변조를 할 수 있기에 이를 방지하기 위해 사용
 - Header에서 지정했던 알고리즘으로 인코딩하여 Signature를 생성
 
 ## Pros
