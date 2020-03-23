@@ -10,9 +10,10 @@ I want to be a better software engineer today than yesterday.
 - [CSS](https://github.com/lannex/TIL/tree/master/CSS)
 - [ComputerScience](https://github.com/lannex/TIL/tree/master/ComputerScience)
 - [Database](https://github.com/lannex/TIL/tree/master/Database)
-- [Infrastructure](https://github.com/lannex/TIL/tree/master/Infrastructure)
 - [Go](https://github.com/lannex/TIL/tree/master/Go)
+- [Infrastructure](https://github.com/lannex/TIL/tree/master/Infrastructure)
 - [Javascript & Typescript](https://github.com/lannex/TIL/tree/master/Javascript%20%26%20Typescript)
+- [Python](https://github.com/lannex/TIL/tree/master/Python)
 - [Web](https://github.com/lannex/TIL/tree/master/Web)
 - [iOS](https://github.com/lannex/TIL/tree/master/iOS)
 
