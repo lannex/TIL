@@ -3,7 +3,7 @@
 
 ![macbook](https://media.giphy.com/media/ihcJ8evKgsJtC/giphy.gif)
 
-###### I want to be a better software engineer today than yesterday.
+I want to be a better software engineer today than yesterday.
 
 ## Structure
 - [Algorithm](https://github.com/lannex/TIL/tree/master/Algorithm)
