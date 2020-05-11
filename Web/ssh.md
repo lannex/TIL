@@ -18,6 +18,11 @@ $ ssh-add ~/.ssh/id_rsa_work
 $ ssh-add -l
 ```
 
+## 확인
+```bash
+$ ssh-add -l
+```
+
 ## config
 - config 파일 생성
 ```bash
